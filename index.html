@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Search for Weather</h1>
     <div class="weather-container">
        <div class="search">
         <input type="text" placeholder="Enter city name" spellcheck="false">
-        <button ><img src="images/search.png" ></button>
+        <button><i class='bx bx-search'></i></button>
        </div>
 
        <div class="error">
@@ -19,14 +21,14 @@
        </div>
 
        <div class="weather">
-        <img src="" class="weather-icon">
+        <i class='bx bx-cloud weather-icon'></i>
         <h1 class="temp"></h1>
         <h2 class="city"></h2>
 
         <div class="details">
 
             <div class="col">
-                <img src="images/humidity.png" >
+              <i class='bx bx-droplet'></i>
                 <div>
                     <p class="humidity">50%</p>
                     <p>Humidity</p>
@@ -34,7 +36,7 @@
             </div>
 
             <div class="col">
-                <img src="images/wind.png" >
+              <i class='bx bx-wind'></i>
                 <div>
                     <p class="wind">15km/hr</p>
                     <p>Wind Speed</p>
@@ -49,3 +51,4 @@
     </script>
 </body>
 </html>
+
